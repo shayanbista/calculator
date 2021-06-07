@@ -1,0 +1,36 @@
+.main{
+    margin: auto;
+    width:50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #311E10;
+    padding: 10px 20px 20px 20px;
+}
+.screen-container{
+    height:10vh;
+    width:50vw;
+    background-color: #DD6031;
+    font-size: 25px;
+    color:white;
+    display: flex;
+    justify-content: flex-end;
+}
+.button-container{
+    margin:10px 0px 0px 0px;
+    width:50vw;
+    background-color:#EABE7C;
+    display: grid;
+    grid-gap: 25px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px 10px 20px 10px;
+}
+button{
+    margin:10px 10px 10px 10px;
+    background-color: #DD6031;
+    color:white;
+}
+button:hover{
+    background-color: #ECE4B7;
+    color:black;
+}
